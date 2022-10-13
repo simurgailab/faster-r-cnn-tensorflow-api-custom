@@ -44,7 +44,7 @@ Move the [setup.py](https://github.com/dilaraozdemir/repo/setup.py)  file under 
     python setup.py build
     python setup.py install
 
-## 📌Dataset Preparing
+## Dataset Preparing
 Your dataset must be in voc format and each image must have its own tag file (with an .xml extension).
 ### Step 1
 Move the data you will use as test and train folders to  models/research/object_detection/images directory.
@@ -120,7 +120,7 @@ input_path: "C:/tensorflowapi/models/research/object_detection/test.record"
 label_map_path: "C:/tensorflowapi/models/research/object_detection/training/labelmap.pbtxt"
 ```
 
-## 📌Training
+## Training
 ⚠️ **Before the training models/research/object_detection/inference_graph folder must be empty.**
 
 For starting to train, run the command below in models/research/object_detection directory.
@@ -131,7 +131,7 @@ It will show like the following image.
 
 ![image](/images/training.jpg)
 
-## 📌Testing
+## Testing
 ### Inference Graph
 ⚠️ **Write the number of the last model.ckpt model created in the inference_graph directory in the XXXX part of the command.**
 
@@ -166,6 +166,5 @@ Write the number of classes the object detector can identify.
 Press F5 to Run Module.
 
 
-**NOTE** 📝  If there is a problem with the displaying Accuracy metric, you have to set up according to right version of Tensorflow Model file.
 
 **NOTE** 📝 You can reach from ([here](https://dilaraozdemir.medium.com/kendi-veri-k%C3%BCmeniz-ile-tensorflow-object-detection-api-kullanarak-faster-r-cnn-uygulamas%C4%B1-1e6114edf280)) the instructions in Turkish language.
